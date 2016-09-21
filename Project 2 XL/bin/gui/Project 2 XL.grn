@@ -1,0 +1,221 @@
+<uml>
+   <greenVersion="30100"/>
+   <type>
+      <name="=Project 2 XL/src<gui{XLList.java[XLList"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="26"/>
+      <y="13"/>
+   </type>
+   <type>
+      <name="=Project 2 XL/src<gui{SheetPanel.java[SheetPanel"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="684"/>
+      <y="129"/>
+   </type>
+   <type>
+      <name="=Project 2 XL/src<gui{SlotLabels.java[SlotLabels"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="498"/>
+      <y="361"/>
+   </type>
+   <type>
+      <name="=Project 2 XL/src<gui{StatusPanel.java[StatusPanel"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="997"/>
+      <y="100"/>
+   </type>
+   <type>
+      <name="=Project 2 XL/src<gui{BorderPanel.java[BorderPanel"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="455"/>
+      <y="23"/>
+   </type>
+   <type>
+      <name="=Project 2 XL/src<gui{XL.java[XL"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="21"/>
+      <y="195"/>
+   </type>
+   <type>
+      <name="=Project 2 XL/src<gui{RowLabels.java[RowLabels"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="486"/>
+      <y="122"/>
+   </type>
+   <type>
+      <name="=Project 2 XL/src<gui{ColoredLabel.java[ColoredLabel"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="911"/>
+      <y="289"/>
+   </type>
+   <type>
+      <name="=Project 2 XL/src<gui{CurrentLabel.java[CurrentLabel"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="756"/>
+      <y="-4"/>
+   </type>
+   <type>
+      <name="=Project 2 XL/src<gui{SlotLabel.java[SlotLabel"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="435"/>
+      <y="474"/>
+   </type>
+   <type>
+      <name="=Project 2 XL/src<gui{SlotLabel.java[SlotLabel[ClickListener"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="287"/>
+      <y="592"/>
+   </type>
+   <type>
+      <name="=Project 2 XL/src<gui{StatusLabel.java[StatusLabel"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="919"/>
+      <y="587"/>
+   </type>
+   <type>
+      <name="=Project 2 XL/src<gui{GridPanel.java[GridPanel"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="409"/>
+      <y="224"/>
+   </type>
+   <type>
+      <name="=Project 2 XL/src<gui{XLCounter.java[XLCounter"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="50"/>
+      <y="597"/>
+   </type>
+   <type>
+      <name="=Project 2 XL/src<gui{Editor.java[Editor"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="55"/>
+      <y="489"/>
+   </type>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.generalization.GeneralizationPart"/>
+      <sourceType="=Project 2 XL/src<gui{StatusPanel.java[StatusPanel"/>
+      <targetType="=Project 2 XL/src<gui{BorderPanel.java[BorderPanel"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.generalization.GeneralizationPart"/>
+      <sourceType="=Project 2 XL/src<gui{CurrentLabel.java[CurrentLabel"/>
+      <targetType="=Project 2 XL/src<gui{ColoredLabel.java[ColoredLabel"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.composition.CompositionPart"/>
+      <sourceType="=Project 2 XL/src<gui{SlotLabels.java[SlotLabels"/>
+      <targetType="=Project 2 XL/src<gui{SlotLabel.java[SlotLabel"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.generalization.GeneralizationPart"/>
+      <sourceType="=Project 2 XL/src<gui{SlotLabel.java[SlotLabel"/>
+      <targetType="=Project 2 XL/src<gui{ColoredLabel.java[ColoredLabel"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.generalization.GeneralizationPart"/>
+      <sourceType="=Project 2 XL/src<gui{StatusLabel.java[StatusLabel"/>
+      <targetType="=Project 2 XL/src<gui{ColoredLabel.java[ColoredLabel"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.generalization.GeneralizationPart"/>
+      <sourceType="=Project 2 XL/src<gui{RowLabels.java[RowLabels"/>
+      <targetType="=Project 2 XL/src<gui{GridPanel.java[GridPanel"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.dependency.DependencyIPart"/>
+      <sourceType="=Project 2 XL/src<gui{RowLabels.java[RowLabels"/>
+      <targetType="=Project 2 XL/src<gui{ColoredLabel.java[ColoredLabel"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.dependency.DependencyIPart"/>
+      <sourceType="=Project 2 XL/src<gui{StatusPanel.java[StatusPanel"/>
+      <targetType="=Project 2 XL/src<gui{CurrentLabel.java[CurrentLabel"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.dependency.DependencyIPart"/>
+      <sourceType="=Project 2 XL/src<gui{SheetPanel.java[SheetPanel"/>
+      <targetType="=Project 2 XL/src<gui{SlotLabels.java[SlotLabels"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.dependency.DependencyLPart"/>
+      <sourceType="=Project 2 XL/src<gui{XL.java[XL"/>
+      <targetType="=Project 2 XL/src<gui{Editor.java[Editor"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.dependency.DependencyLPart"/>
+      <sourceType="=Project 2 XL/src<gui{SlotLabels.java[SlotLabels"/>
+      <targetType="=Project 2 XL/src<gui{SlotLabel.java[SlotLabel"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.dependency.DependencyIPart"/>
+      <sourceType="=Project 2 XL/src<gui{SlotLabels.java[SlotLabels"/>
+      <targetType="=Project 2 XL/src<gui{ColoredLabel.java[ColoredLabel"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.dependency.DependencyIPart"/>
+      <sourceType="=Project 2 XL/src<gui{SheetPanel.java[SheetPanel"/>
+      <targetType="=Project 2 XL/src<gui{RowLabels.java[RowLabels"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.dependency.DependencyIPart"/>
+      <sourceType="=Project 2 XL/src<gui{SlotLabel.java[SlotLabel"/>
+      <targetType="=Project 2 XL/src<gui{SlotLabel.java[SlotLabel[ClickListener"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.generalization.GeneralizationPart"/>
+      <sourceType="=Project 2 XL/src<gui{SlotLabels.java[SlotLabels"/>
+      <targetType="=Project 2 XL/src<gui{GridPanel.java[GridPanel"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.generalization.GeneralizationPart"/>
+      <sourceType="=Project 2 XL/src<gui{SheetPanel.java[SheetPanel"/>
+      <targetType="=Project 2 XL/src<gui{BorderPanel.java[BorderPanel"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+</uml>
+

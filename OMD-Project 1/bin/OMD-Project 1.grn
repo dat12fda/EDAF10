@@ -1,0 +1,249 @@
+<uml>
+   <greenVersion="30100"/>
+   <type>
+      <name="=OMD-Project 1/src<computer{Address.java[Address"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="17"/>
+      <y="382"/>
+   </type>
+   <type>
+      <name="=OMD-Project 1/src<computer{Operand.java[Operand"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="172"/>
+      <y="250"/>
+   </type>
+   <type>
+      <name="=OMD-Project 1/src<computer{ProgramCounter.java[ProgramCounter"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="171"/>
+      <y="84"/>
+   </type>
+   <type>
+      <name="=OMD-Project 1/src<computer{Program.java[Program"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="720"/>
+      <y="91"/>
+   </type>
+   <type>
+      <name="=OMD-Project 1/src<computer{LongMemory.java[LongMemory"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="1267"/>
+      <y="135"/>
+   </type>
+   <type>
+      <name="=OMD-Project 1/src<computer{Word.java[Word"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="286"/>
+      <y="385"/>
+   </type>
+   <type>
+      <name="=OMD-Project 1/src<computer{Memory.java[Memory"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="1267"/>
+      <y="53"/>
+   </type>
+   <type>
+      <name="=OMD-Project 1/src<computer{LongWord.java[LongWord"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="290"/>
+      <y="537"/>
+   </type>
+   <type>
+      <name="=OMD-Project 1/src<computer{Computer.java[Computer"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="459"/>
+      <y="94"/>
+   </type>
+   <type>
+      <name="=OMD-Project 1/src<computer{Factorial.java[Factorial"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="687"/>
+      <y="252"/>
+   </type>
+   <type>
+      <name="=OMD-Project 1/src<operations{Halt.java[Halt"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="1124"/>
+      <y="545"/>
+   </type>
+   <type>
+      <name="=OMD-Project 1/src<operations{Operation.java[Operation"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="977"/>
+      <y="255"/>
+   </type>
+   <type>
+      <name="=OMD-Project 1/src<operations{Jump.java[Jump"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="1116"/>
+      <y="495"/>
+   </type>
+   <type>
+      <name="=OMD-Project 1/src<operations{Expr.java[Expr"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="662"/>
+      <y="395"/>
+   </type>
+   <type>
+      <name="=OMD-Project 1/src<operations{Add.java[Add"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="677"/>
+      <y="642"/>
+   </type>
+   <type>
+      <name="=OMD-Project 1/src<operations{Copy.java[Copy"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="1156"/>
+      <y="548"/>
+   </type>
+   <type>
+      <name="=OMD-Project 1/src<operations{JumpEq.java[JumpEq"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="1121"/>
+      <y="450"/>
+   </type>
+   <type>
+      <name="=OMD-Project 1/src<operations{Print.java[Print"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="1181"/>
+      <y="527"/>
+   </type>
+   <type>
+      <name="=OMD-Project 1/src<operations{Mul.java[Mul"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="640"/>
+      <y="627"/>
+   </type>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.generalization.GeneralizationPart"/>
+      <sourceType="=OMD-Project 1/src<operations{Add.java[Add"/>
+      <targetType="=OMD-Project 1/src<operations{Expr.java[Expr"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.generalization.GeneralizationPart"/>
+      <sourceType="=OMD-Project 1/src<operations{Print.java[Print"/>
+      <targetType="=OMD-Project 1/src<operations{Operation.java[Operation"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.generalization.GeneralizationPart"/>
+      <sourceType="=OMD-Project 1/src<operations{Halt.java[Halt"/>
+      <targetType="=OMD-Project 1/src<operations{Operation.java[Operation"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.association.AssociationPart"/>
+      <sourceType="=OMD-Project 1/src<computer{Factorial.java[Factorial"/>
+      <targetType="=OMD-Project 1/src<operations{Operation.java[Operation"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.generalization.GeneralizationPart"/>
+      <sourceType="=OMD-Project 1/src<operations{Expr.java[Expr"/>
+      <targetType="=OMD-Project 1/src<operations{Operation.java[Operation"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.realization.RealizationPart"/>
+      <sourceType="=OMD-Project 1/src<computer{LongMemory.java[LongMemory"/>
+      <targetType="=OMD-Project 1/src<computer{Memory.java[Memory"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.generalization.GeneralizationPart"/>
+      <sourceType="=OMD-Project 1/src<operations{Jump.java[Jump"/>
+      <targetType="=OMD-Project 1/src<operations{Operation.java[Operation"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.generalization.GeneralizationPart"/>
+      <sourceType="=OMD-Project 1/src<operations{Copy.java[Copy"/>
+      <targetType="=OMD-Project 1/src<operations{Operation.java[Operation"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.realization.RealizationPart"/>
+      <sourceType="=OMD-Project 1/src<computer{Address.java[Address"/>
+      <targetType="=OMD-Project 1/src<computer{Operand.java[Operand"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.generalization.GeneralizationPart"/>
+      <sourceType="=OMD-Project 1/src<computer{LongWord.java[LongWord"/>
+      <targetType="=OMD-Project 1/src<computer{Word.java[Word"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.generalization.GeneralizationPart"/>
+      <sourceType="=OMD-Project 1/src<computer{Factorial.java[Factorial"/>
+      <targetType="=OMD-Project 1/src<computer{Program.java[Program"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.generalization.GeneralizationPart"/>
+      <sourceType="=OMD-Project 1/src<operations{Mul.java[Mul"/>
+      <targetType="=OMD-Project 1/src<operations{Expr.java[Expr"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.realization.RealizationPart"/>
+      <sourceType="=OMD-Project 1/src<computer{Word.java[Word"/>
+      <targetType="=OMD-Project 1/src<computer{Operand.java[Operand"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.generalization.GeneralizationPart"/>
+      <sourceType="=OMD-Project 1/src<operations{JumpEq.java[JumpEq"/>
+      <targetType="=OMD-Project 1/src<operations{Operation.java[Operation"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.composition.CompositionPart"/>
+      <sourceType="=OMD-Project 1/src<computer{Computer.java[Computer"/>
+      <targetType="=OMD-Project 1/src<computer{Program.java[Program"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.composition.CompositionPart"/>
+      <sourceType="=OMD-Project 1/src<computer{Computer.java[Computer"/>
+      <targetType="=OMD-Project 1/src<computer{ProgramCounter.java[ProgramCounter"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+</uml>
+

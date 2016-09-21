@@ -1,0 +1,18 @@
+1386771836725	Convert local variable 'unknown' to field
+1386771994361	Extract method 'setUp'
+1386772594622	Rename method 'get'
+1386772622400	Rename method 'put'
+1386772690787	Rename type 'Unknown'
+1386772717538	Rename type 'UnknownTest'
+1386772767915	Move compilation unit
+1386772852131	Rename field 'unknown'
+1386772900428	Convert local variable 'second' to field
+1386772944073	Rename local variable 'o'
+1386772958677	Convert local variable 'third' to field
+1386773167940	Extract method 'hej'
+1386773228682	Extract method 'result'
+1386773319984	Change method 'push'
+1386773502203	Encapsulate field 'list'
+1386773559515	Extract interface 'SuperStack'
+1386773591140	Extract interface 'SuperStack2'
+1386773682831	Pull up members to 'SuperStack'

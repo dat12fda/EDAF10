@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="operations.Operation"/>
+<fullyQualifiedTypeName name="computer.Address"/>
+<fullyQualifiedTypeName name="computer.Word"/>
+<fullyQualifiedTypeName name="term.Function"/>
+<fullyQualifiedTypeName name="term.Constant"/>
+<fullyQualifiedTypeName name="java.util.HashSet"/>
+<fullyQualifiedTypeName name="operands.Operand"/>
+<fullyQualifiedTypeName name="operands.LongWord"/>
+<fullyQualifiedTypeName name="java.util.Observer"/>
+<fullyQualifiedTypeName name="expr.Expr"/>
+<fullyQualifiedTypeName name="expr.Variable"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.util.Set"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="javax.swing.text.html.HTMLDocument.Iterator"/>
+<fullyQualifiedTypeName name="java.io.FileNotFoundException"/>
+<fullyQualifiedTypeName name="model.XLPrintStream"/>
+<fullyQualifiedTypeName name="model.XLBufferedReader"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="model.Slot"/>
+<fullyQualifiedTypeName name="java.util.Observable"/>
+<fullyQualifiedTypeName name="java.lang.StringBuilder"/>
+<fullyQualifiedTypeName name="gui.SlotLabels"/>
+<fullyQualifiedTypeName name="model.BlankSlot"/>
+<fullyQualifiedTypeName name="model.CommentSlot"/>
+<fullyQualifiedTypeName name="gui.Current"/>
+<fullyQualifiedTypeName name="util.XLException"/>
+<fullyQualifiedTypeName name="model.SlotList"/>
+</qualifiedTypeNameHistroy>

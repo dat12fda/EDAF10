@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move 2 elements to &apos;gui.menu.NewMenuItem.java&apos;&#x0A;- Original project: &apos;Project 2 XL&apos;&#x0A;- Destination element: &apos;gui.menu.NewMenuItem.java&apos;&#x0A;- Original elements:&#x0A;     model.XLPrintStream.java&#x0A;     model.XLBufferedReader.java&#x0A;- Update references to refactored element" description="Move compilation units" destination="/src&lt;gui.menu{NewMenuItem.java" element1="/src&lt;model{XLPrintStream.java" element2="/src&lt;model{XLBufferedReader.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1384950957296" units="2" version="1.0"/>
+</session>

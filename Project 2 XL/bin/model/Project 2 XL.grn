@@ -1,0 +1,46 @@
+<uml>
+   <greenVersion="30100"/>
+   <type>
+      <name="=Project 2 XL/src<model{CurrentSlot.java[CurrentSlot"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="154"/>
+      <y="134"/>
+   </type>
+   <type>
+      <name="=Project 2 XL/src<model{XLBufferedReader.java[XLBufferedReader"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="777"/>
+      <y="30"/>
+   </type>
+   <type>
+      <name="=Project 2 XL/src<model{Slot.java[Slot"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="400"/>
+      <y="99"/>
+   </type>
+   <type>
+      <name="=Project 2 XL/src<model{XLPrintStream.java[XLPrintStream"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="770"/>
+      <y="142"/>
+   </type>
+   <type>
+      <name="=Project 2 XL/src<model{SlotList.java[SlotList"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="403"/>
+      <y="314"/>
+   </type>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.dependency.DependencyLPart"/>
+      <sourceType="=Project 2 XL/src<model{SlotList.java[SlotList"/>
+      <targetType="=Project 2 XL/src<model{Slot.java[Slot"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+</uml>
+

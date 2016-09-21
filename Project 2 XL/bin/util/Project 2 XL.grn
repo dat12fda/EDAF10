@@ -1,0 +1,53 @@
+<uml>
+   <greenVersion="30100"/>
+   <type>
+      <name="=Project 2 XL/src<util{XLBufferedReader.java[XLBufferedReader"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="399"/>
+      <y="285"/>
+   </type>
+   <type>
+      <name="=Project 2 XL/src<util{XLException.java[XLException"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="469"/>
+      <y="180"/>
+   </type>
+   <type>
+      <name="=Project 2 XL/src<util{XLPrintStream.java[XLPrintStream"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="439"/>
+      <y="65"/>
+   </type>
+   <type>
+      <name="=Project 2 XL/src<util{Adjustment.java[Adjustment"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="756"/>
+      <y="9"/>
+   </type>
+   <type>
+      <name="=Project 2 XL/src<util{NumberAdjustment.java[NumberAdjustment"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="700"/>
+      <y="309"/>
+   </type>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.generalization.GeneralizationPart"/>
+      <sourceType="=Project 2 XL/src<util{NumberAdjustment.java[NumberAdjustment"/>
+      <targetType="=Project 2 XL/src<util{Adjustment.java[Adjustment"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.dependency.DependencyIPart"/>
+      <sourceType="=Project 2 XL/src<util{XLBufferedReader.java[XLBufferedReader"/>
+      <targetType="=Project 2 XL/src<util{XLException.java[XLException"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+</uml>
+

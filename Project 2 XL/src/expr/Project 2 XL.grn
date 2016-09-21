@@ -1,0 +1,151 @@
+<uml>
+   <greenVersion="30100"/>
+   <type>
+      <name="=Project 2 XL/src<expr{TestExpr.java[TestExpr"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="469"/>
+      <y="19"/>
+   </type>
+   <type>
+      <name="=Project 2 XL/src<expr{Environment.java[Environment"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="670"/>
+      <y="25"/>
+   </type>
+   <type>
+      <name="=Project 2 XL/src<expr{Variable.java[Variable"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="140"/>
+      <y="66"/>
+   </type>
+   <type>
+      <name="=Project 2 XL/src<expr{Sub.java[Sub"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="951"/>
+      <y="89"/>
+   </type>
+   <type>
+      <name="=Project 2 XL/src<expr{ExprParser.java[ExprParser"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="0"/>
+      <y="200"/>
+   </type>
+   <type>
+      <name="=Project 2 XL/src<expr{Expr.java[Expr"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="230"/>
+      <y="188"/>
+   </type>
+   <type>
+      <name="=Project 2 XL/src<expr{BinaryExpr.java[BinaryExpr"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="541"/>
+      <y="162"/>
+   </type>
+   <type>
+      <name="=Project 2 XL/src<expr{Mul.java[Mul"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="859"/>
+      <y="330"/>
+   </type>
+   <type>
+      <name="=Project 2 XL/src<expr{Div.java[Div"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="288"/>
+      <y="346"/>
+   </type>
+   <type>
+      <name="=Project 2 XL/src<expr{Num.java[Num"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="17"/>
+      <y="445"/>
+   </type>
+   <type>
+      <name="=Project 2 XL/src<expr{Add.java[Add"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="573"/>
+      <y="477"/>
+   </type>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.dependency.DependencyIPart"/>
+      <sourceType="=Project 2 XL/src<expr{ExprParser.java[ExprParser"/>
+      <targetType="=Project 2 XL/src<expr{Variable.java[Variable"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.generalization.GeneralizationPart"/>
+      <sourceType="=Project 2 XL/src<expr{Sub.java[Sub"/>
+      <targetType="=Project 2 XL/src<expr{BinaryExpr.java[BinaryExpr"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.dependency.DependencyIPart"/>
+      <sourceType="=Project 2 XL/src<expr{ExprParser.java[ExprParser"/>
+      <targetType="=Project 2 XL/src<expr{Num.java[Num"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.generalization.GeneralizationPart"/>
+      <sourceType="=Project 2 XL/src<expr{Add.java[Add"/>
+      <targetType="=Project 2 XL/src<expr{BinaryExpr.java[BinaryExpr"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.generalization.GeneralizationPart"/>
+      <sourceType="=Project 2 XL/src<expr{BinaryExpr.java[BinaryExpr"/>
+      <targetType="=Project 2 XL/src<expr{Expr.java[Expr"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.generalization.GeneralizationPart"/>
+      <sourceType="=Project 2 XL/src<expr{Div.java[Div"/>
+      <targetType="=Project 2 XL/src<expr{BinaryExpr.java[BinaryExpr"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.generalization.GeneralizationPart"/>
+      <sourceType="=Project 2 XL/src<expr{Variable.java[Variable"/>
+      <targetType="=Project 2 XL/src<expr{Expr.java[Expr"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.dependency.DependencyLPart"/>
+      <sourceType="=Project 2 XL/src<expr{ExprParser.java[ExprParser"/>
+      <targetType="=Project 2 XL/src<expr{Expr.java[Expr"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.generalization.GeneralizationPart"/>
+      <sourceType="=Project 2 XL/src<expr{Num.java[Num"/>
+      <targetType="=Project 2 XL/src<expr{Expr.java[Expr"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.generalization.GeneralizationPart"/>
+      <sourceType="=Project 2 XL/src<expr{Mul.java[Mul"/>
+      <targetType="=Project 2 XL/src<expr{BinaryExpr.java[BinaryExpr"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+</uml>
+

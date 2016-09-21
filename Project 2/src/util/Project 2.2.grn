@@ -1,0 +1,32 @@
+<uml>
+   <greenVersion="30100"/>
+   <type>
+      <name="=Project 2/src<util{XLException.java[XLException"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="136"/>
+      <y="238"/>
+   </type>
+   <type>
+      <name="=Project 2/src<util{Adjustment.java[Adjustment"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="437"/>
+      <y="145"/>
+   </type>
+   <type>
+      <name="=Project 2/src<util{NumberAdjustment.java[NumberAdjustment"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="747"/>
+      <y="162"/>
+   </type>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.generalization.GeneralizationPart"/>
+      <sourceType="=Project 2/src<util{NumberAdjustment.java[NumberAdjustment"/>
+      <targetType="=Project 2/src<util{Adjustment.java[Adjustment"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+</uml>
+

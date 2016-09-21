@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="FileSystemImportWizard">
+		<item value="false" key="WizardFileSystemResourceImportPage1.STORE_OVERWRITE_EXISTING_RESOURCES_ID"/>
+		<item value="false" key="WizardFileSystemResourceImportPage1.STORE_CREATE_CONTAINER_STRUCTURE_ID"/>
+		<list key="WizardFileSystemResourceImportPage1.STORE_SOURCE_NAMES_ID">
+			<item value="/h/d3/a/dat12fda/Desktop/operations"/>
+			<item value="/h/d3/a/dat12fda/Desktop/computer"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.internal.QuickAccess">
+		<item value="1050" key="dialogWidth"/>
+		<item value="656" key="dialogHeight"/>
+		<list key="orderedProviders">
+		</list>
+		<list key="textArray">
+		</list>
+		<list key="orderedElements">
+		</list>
+		<list key="textEntries">
+		</list>
+	</section>
+	<section name="WorkbenchPreferenceDialogSettings">
+		<item value="155" key="DIALOG_Y_ORIGIN"/>
+		<item value="644" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="ZipFileImportWizard">
+		<item value="false" key="WizardZipFileResourceImportPage1.STORE_OVERWRITE_EXISTING_RESOURCES_ID"/>
+		<list key="WizardZipFileResourceImportPage1.STORE_SOURCE_NAMES_ID">
+			<item value="/h/d3/a/dat12fda/Downloads/xl_tors_28_nov.zip"/>
+			<item value="/h/d3/a/dat12fda/Downloads/xl (3) (1).zip"/>
+			<item value="/h/d3/a/dat12fda/Desktop/hejhejhejhanser.zip"/>
+			<item value="/h/d3/a/dat12fda/Desktop/Project2.zip"/>
+			<item value="/h/d3/a/dat12fda/Downloads/xl.zip"/>
+		</list>
+	</section>
+	<section name="ZipFileExportWizard">
+		<item value="true" key="WizardZipFileResourceExportPage1.STORE_CREATE_STRUCTURE_ID"/>
+		<item value="true" key="WizardZipFileResourceExportPage1.STORE_COMPRESS_CONTENTS_ID"/>
+		<list key="WizardZipFileResourceExportPage1.STORE_DESTINATION_NAMES_ID">
+			<item value="/h/d3/a/dat12fda/Desktop/Project 2 XL_nov_29.zip"/>
+			<item value="/h/d3/a/dat12fda/Desktop/Project 2 XL.zip"/>
+			<item value="/h/d3/a/dat12fda/Desktop/Project 2a.zip"/>
+			<item value="/h/d3/a/dat12fda/Desktop/Project 2.zip"/>
+			<item value="/h/d3/a/dat12fda/Desktop/OMD-Laborationer.zip"/>
+		</list>
+	</section>
+	<section name="ImportExportAction">
+		<item value="org.eclipse.ui.wizards.import.ZipFile" key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID"/>
+		<item value="org.eclipse.ui.wizards.export.ZipFile" key="ImportExportPage.STORE_SELECTED_EXPORT_WIZARD_ID"/>
+		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+		</list>
+		<list key="ImportExportPage.STORE_EXPANDED_EXPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+		</list>
+	</section>
+</section>
